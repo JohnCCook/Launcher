@@ -1,12 +1,15 @@
+//All of the global variables
 var launcher, launcherImg;
 
 function preload() {
+//Adding the pictures to the sprites
   launcherImg = loadImage('Photos/Launcher.png');
 }
 
 function setup() {
   createCanvas(windowWidth,windowHeight);
 
+//Setting up the launher
   launcher = createSprite(100, 650, 50, 50);
   launcher.addImage(launcherImg)
   launcher.scale = 0.1
