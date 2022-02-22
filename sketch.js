@@ -1,10 +1,10 @@
 //All of the global variables
 var launcher, launcherImg;
 //Matter.js stuff
-var Engine = Matter.Engine,
-  World = Matter.World,
-  Bodies = Matter.Bodies;
-var Engine = Engine.create();
+const Engine = Matter.Engine
+const  World = Matter.World
+const  Bodies = Matter.Bodies;
+const Body = Matter.Body
 
 function preload() {
 //Adding the pictures to the sprites
